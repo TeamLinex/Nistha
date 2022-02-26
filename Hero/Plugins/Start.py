@@ -110,7 +110,7 @@ async def useradd(_, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/46247f00eecfb587117c0.jpg",
         caption=f"""ʜᴇʟʟᴏ [👋](https://telegra.ph/file/0d0cd252270861a6838ce.jpg)
-ᴍʏ ɴᴀᴍᴇ ɪs {BOT_NAME}.
+ᴍʏ ɴᴀᴍᴇ ɪs .
 ɪ ᴀᴍ ᴍᴜsɪᴄ + ᴠɪᴅᴇᴏ sᴛʀᴇᴀᴍᴇʀ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴀɴᴅ ᴍʏ ɢᴏᴅғᴀᴛʜᴇʀ ɪs [⚡ᴘᴇʀғᴇᴄᴛ sᴀʟɪᴍ⚡](https://t.me/xmartperson) .
 ᴀʟʟ ᴄᴍɴᴅ ᴄᴀɴ ᴜsᴇᴅ ᴡɪᴛʜ:""",
     reply_markup=InlineKeyboardMarkup(
