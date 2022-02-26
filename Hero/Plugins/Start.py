@@ -111,7 +111,7 @@ async def useradd(_, message: Message):
         photo=f"https://telegra.ph/file/4cee546f83f7a9573d329.jpg",
         caption=f"""**
 📶 Hᴇʟʟᴏ, ɪ ᴀᴍ Bʟᴀᴢᴇ Sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ Mᴜsɪᴄ Pʟᴀʏᴇʀ Pᴏᴡᴇʀᴇᴅ Bʏ [✳️ Official AFK ✳️](https://t.me/OFFICIAL-AFK-XD)
-Bᴏᴛ Fᴏʀ Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘs ...""",
+Click help Commands Button /help ...""",
    reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -121,7 +121,7 @@ Bᴏᴛ Fᴏʀ Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘs ...""",
                     )
                 ],
                 [            
-                 InlineKeyboardButton  ("📶 About Me 📶", url=f"https://t.me/TEAM_BLAZE_XD"),
+                 InlineKeyboardButton  ("📶 About Me 📶", callback_data="help_back"),
                 ],
                 [
                     InlineKeyboardButton(
