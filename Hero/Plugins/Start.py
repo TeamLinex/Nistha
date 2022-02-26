@@ -108,10 +108,10 @@ async def useradd(_, message: Message):
 @app.on_message(filters.command("start") & filters.private & ~filters.edited)
 async def useradd(_, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/0d0cd252270861a6838ce.jpg",
+        photo=f"https://telegra.ph/file/4cee546f83f7a9573d329.jpg",
         caption=f"""**
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ʀᴏᴄᴋᴇʀᴢ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [ᴘᴇʀғᴇᴄᴛ sᴀʟɪᴍ](https://t.me/xmartperson)
-ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...""",
+📶 Hᴇʟʟᴏ, ɪ ᴀᴍ Bʟᴀᴢᴇ Sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ Mᴜsɪᴄ Pʟᴀʏᴇʀ Pᴏᴡᴇʀᴇᴅ Bʏ [✳️ Official AFK ✳️](https://t.me/OFFICIAL-AFK-XD)
+Bᴏᴛ Fᴏʀ Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘs ...""",
    reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -144,33 +144,36 @@ async def useradd(_, message: Message):
 @app.on_message(filters.command(["alive", "Candy"]) & filters.group & ~filters.edited)
 async def useradd(_, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/de138de8fd880becb9cf1.jpg",
+        photo=f"https://telegra.ph/file/4cee546f83f7a9573d329.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/Shayri_Music_Lovers")
+                        text="🚑 Support", url=f"https://t.me/BLAZE_SUPPORT"
+                    ),
+                    InlineKeyboardButton(text="Updates 📢", url=f"https://t.me/THE_BLAZE_NETWORK"),
                 ]
             ]
-        ),
-    )
+        )
 
 
 @app.on_message(filters.command(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
 async def useradd(_, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/de138de8fd880becb9cf1.jpg",
+        photo=f"https://telegra.ph/file/4cee546f83f7a9573d329.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://github.com/CandyMusic/Hero")
+                        text="🚑 Support", url=f"https://t.me/BLAZE_SUPPORT"
+                    ),
+                    InlineKeyboardButton(text="Updates 📢", url=f"https://t.me/THE_BLAZE_NETWORK"),
                 ]
             ]
-        ),
-    )
+        )
+
 
 
 @app.on_message(filters.command("settings") & filters.group)
