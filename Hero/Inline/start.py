@@ -8,22 +8,22 @@ from Hero import BOT_USERNAME
 def setting_markup2():
     buttons = [
         [
-            InlineKeyboardButton(text="🔈 ᴀᴜᴅɪᴏ ǫᴜᴀʟɪᴛʏ", callback_data="AQ"),
-            InlineKeyboardButton(text="🎚 ᴀᴜᴅɪᴏ ᴠᴏʟᴜᴍᴇ", callback_data="AV"),
+            InlineKeyboardButton(text="🔈 Audio Quality", callback_data="AQ"),
+            InlineKeyboardButton(text="🎚 Audio Volume", callback_data="AV"),
         ],
         [
             InlineKeyboardButton(
-                text="👥 ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴜsᴇʀs", callback_data="AU"
+                text="👥 Authorized users", callback_data="AU"
             ),
             InlineKeyboardButton(
-                text="💻 ᴅᴀsʜʙᴏᴀʀᴅ", callback_data="Dashboard"
+                text="💻 Dashboard", callback_data="Dashboard"
             ),
         ],
         [
-            InlineKeyboardButton(text="🗑️ ᴄʟᴏsᴇ", callback_data="close"),
+            InlineKeyboardButton(text="🗑️ Close", callback_data="close"),
         ],
     ]
-    return f"⚙️  **{MUSIC_BOT_NAME} sᴇᴛᴛɪɴɢs**", buttons
+    return f"⚙️  **{MUSIC_BOT_NAME} Settings**", buttons
 
 
 def start_pannel():
@@ -31,7 +31,7 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 ʜᴇʟᴘᴇʀ ᴄᴏᴍᴍᴀɴᴅs ᴍᴇɴᴜ", callback_data="shikhar"
+                    text="🗂 Helpers Commands menu", callback_data="shikhar"
                 ),
             ],
             [
