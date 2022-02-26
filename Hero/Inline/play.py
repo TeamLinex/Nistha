@@ -48,7 +48,7 @@ def url_markup(videoid, duration, user_id, query, query_type):
 
             InlineKeyboardButton(
 
-                text="🔎 ᴍᴏʀᴇ ʀᴇsᴜʟᴛs",
+                text="🔎 More Results",
 
                 callback_data=f"Search {query}|{user_id}",
 
@@ -56,7 +56,7 @@ def url_markup(videoid, duration, user_id, query, query_type):
 
             InlineKeyboardButton(
 
-                text="🗑 ᴄʟᴏsᴇ sᴇᴀʀᴄʜ",
+                text="🗑 Close Search",
 
                 callback_data=f"forceclose {query}|{user_id}",
 
@@ -76,7 +76,7 @@ def url_markup2(videoid, duration, user_id):
 
             InlineKeyboardButton(
 
-                text="🎵 ᴘʟᴀʏ ᴍᴜsɪᴄ",
+                text="🎵 Play Music",
 
                 callback_data=f"MusicStream {videoid}|{duration}|{user_id}",
 
@@ -84,7 +84,7 @@ def url_markup2(videoid, duration, user_id):
 
             InlineKeyboardButton(
 
-                text="🎥 ᴘʟᴀʏ ᴠɪᴅᴇᴏ",
+                text="🎥 Play Video",
 
                 callback_data=f"Choose {videoid}|{duration}|{user_id}",
 
@@ -290,7 +290,7 @@ def search_markup2(
 
             InlineKeyboardButton(
 
-                text="🗑 ᴄʟᴏsᴇ", callback_data=f"forceclose {query}|{user_id}"
+                text="🗑 Close", callback_data=f"forceclose {query}|{user_id}"
 
             ),
 
@@ -312,7 +312,10 @@ def secondary_markup(videoid, user_id):
 
         [
 
-            InlineKeyboardButton(text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞", url=f"https://t.me/AlishaSupport"),
+            InlineKeyboardButton(text="▶️", callback_data=f"resumecb"),
+            InlineKeyboardButton(text="⏸️", callback_data=f"pausecb"),
+            InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
+            InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
 
         ],
 
@@ -320,11 +323,11 @@ def secondary_markup(videoid, user_id):
 
             InlineKeyboardButton(
 
-                text="🔗 ᴍᴏʀᴇ ᴍᴇɴᴜ", callback_data=f"other {videoid}|{user_id}"
+                text="🔗 More Menu", callback_data=f"other {videoid}|{user_id}"
 
             ),
 
-            InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ ᴍᴇɴᴜ", callback_data=f"close"),
+            InlineKeyboardButton(text="🗑 Close Menu", callback_data=f"close"),
 
         ],
 
@@ -338,13 +341,15 @@ def secondary_markup2(videoid, user_id):
 
         [
 
-            InlineKeyboardButton(text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞⁩", url=f"https://t.me/AlishaSupport"),
-
+            InlineKeyboardButton(text="▶️", callback_data=f"resumecb"),
+            InlineKeyboardButton(text="⏸️", callback_data=f"pausecb"),
+            InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
+            InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
         ],
 
         [
 
-            InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ ᴍᴇɴᴜ", callback_data=f"close"),
+            InlineKeyboardButton(text="🗑 Close Menu", callback_data=f"close"),
 
         ],
 
@@ -376,7 +381,10 @@ def primary_markup(videoid, user_id, current_time, total_time):
 
         [
 
-            InlineKeyboardButton(text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞", url=f"https://t.me/AlishaSupport"),
+            InlineKeyboardButton(text="▶️", callback_data=f"resumecb"),
+            InlineKeyboardButton(text="⏸️", callback_data=f"pausecb"),
+            InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
+            InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
 
         ],
 
@@ -384,11 +392,11 @@ def primary_markup(videoid, user_id, current_time, total_time):
 
             InlineKeyboardButton(
 
-                text="🔗 ᴍᴏʀᴇ ᴍᴇɴᴜ", callback_data=f"other {videoid}|{user_id}"
+                text="🔗 More Menu", callback_data=f"other {videoid}|{user_id}"
 
             ),
 
-            InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ ᴍᴇɴᴜ", callback_data=f"close"),
+            InlineKeyboardButton(text="🗑 Close Menu", callback_data=f"close"),
 
         ],
 
@@ -414,7 +422,10 @@ def timer_markup(videoid, user_id, current_time, total_time):
 
         [
 
-            InlineKeyboardButton(text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞", url=f"https://t.me/AlishaSupport"),
+            InlineKeyboardButton(text="▶️", callback_data=f"resumecb"),
+            InlineKeyboardButton(text="⏸️", callback_data=f"pausecb"),
+            InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
+            InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
 
         ],
 
@@ -422,11 +433,11 @@ def timer_markup(videoid, user_id, current_time, total_time):
 
             InlineKeyboardButton(
 
-                text="🔗 ᴍᴏʀᴇ ᴍᴇɴᴜ", callback_data=f"other {videoid}|{user_id}"
+                text="🔗 More Menu", callback_data=f"other {videoid}|{user_id}"
 
             ),
 
-            InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ ᴍᴇɴᴜ", callback_data=f"close"),
+            InlineKeyboardButton(text="🗑 Close Menu", callback_data=f"close"),
 
         ],
 
@@ -458,11 +469,14 @@ def audio_markup(videoid, user_id, current_time, total_time):
 
         [
 
-            InlineKeyboardButton(text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞", url=f"https://t.me/AlishaSupport"),
+            InlineKeyboardButton(text="▶️", callback_data=f"resumecb"),
+            InlineKeyboardButton(text="⏸️", callback_data=f"pausecb"),
+            InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
+            InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
 
         ],
 
-        [InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ ᴍᴇɴᴜ", callback_data=f"close")],
+        [InlineKeyboardButton(text="🗑 Close Menu", callback_data=f"close")],
 
     ]
 
@@ -486,11 +500,14 @@ def audio_timer_markup_start(videoid, user_id, current_time, total_time):
 
         [
 
-            InlineKeyboardButton(text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞⁩", url=f"https://t.me/AlishaSupport"),
+            InlineKeyboardButton(text="▶️", callback_data=f"resumecb"),
+            InlineKeyboardButton(text="⏸️", callback_data=f"pausecb"),
+            InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
+            InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
 
         ],
 
-        [InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ ᴍᴇɴᴜ", callback_data=f"close")],
+        [InlineKeyboardButton(text="🗑 Close Menu", callback_data=f"close")],
 
     ]
 
@@ -502,11 +519,14 @@ audio_markup2 = InlineKeyboardMarkup(
 
         [
 
-            InlineKeyboardButton(text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞", url=f"https://t.me/AlishaSupport"),
+             InlineKeyboardButton(text="▶️", callback_data=f"resumecb"),
+            InlineKeyboardButton(text="⏸️", callback_data=f"pausecb"),
+            InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
+            InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
 
         ],
 
-        [InlineKeyboardButton("🗑 ᴄʟᴏsᴇ ᴍᴇɴᴜ", callback_data="close")],
+        [InlineKeyboardButton("🗑 Close Menu", callback_data="close")],
 
     ]
 
