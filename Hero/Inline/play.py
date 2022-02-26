@@ -12,7 +12,7 @@ def url_markup(videoid, duration, user_id, query, query_type):
 
             InlineKeyboardButton(
 
-                text="❮",
+                text="⫷",
 
                 callback_data=f"slider B|{query_type}|{query}|{user_id}",
 
@@ -36,7 +36,7 @@ def url_markup(videoid, duration, user_id, query, query_type):
 
             InlineKeyboardButton(
 
-                text="❯",
+                text="⫸",
 
                 callback_data=f"slider F|{query_type}|{query}|{user_id}",
 
@@ -96,7 +96,7 @@ def url_markup2(videoid, duration, user_id):
 
             InlineKeyboardButton(
 
-                text="🗑 ᴄʟᴏsᴇ sᴇᴀʀᴄʜ",
+                text="🗑 Close Search",
 
                 callback_data=f"forceclose {videoid}|{user_id}",
 
