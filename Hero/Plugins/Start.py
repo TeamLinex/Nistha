@@ -108,33 +108,37 @@ async def useradd(_, message: Message):
 @app.on_message(filters.command("start") & filters.private & ~filters.edited)
 async def useradd(_, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/46247f00eecfb587117c0.jpg",
-        caption=f"""ʜᴇʟʟᴏ [👋](https://telegra.ph/file/0d0cd252270861a6838ce.jpg)
-ᴍʏ ɴᴀᴍᴇ ɪs .
-ɪ ᴀᴍ ᴍᴜsɪᴄ + ᴠɪᴅᴇᴏ sᴛʀᴇᴀᴍᴇʀ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴀɴᴅ ᴍʏ ɢᴏᴅғᴀᴛʜᴇʀ ɪs [⚡ᴘᴇʀғᴇᴄᴛ sᴀʟɪᴍ⚡](https://t.me/xmartperson) .
-ᴀʟʟ ᴄᴍɴᴅ ᴄᴀɴ ᴜsᴇᴅ ᴡɪᴛʜ:""",
-    reply_markup=InlineKeyboardMarkup(
+        photo=f"https://telegra.ph/file/0d0cd252270861a6838ce.jpg",
+        caption=f"""**
+💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ʀᴏᴄᴋᴇʀᴢ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [ᴘᴇʀғᴇᴄᴛ sᴀʟɪᴍ](https://t.me/xmartperson)
+ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...""",
+   reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
                         "🌀 Add Me To Your Group 🌀",
-                        url=f"https://t.me/luna_musicbot?startgroup=true",
+                        url=f"https://t.me/HYPERMEN_RBOT?startgroup=true",
                     )
                 ],
                 [            
-                 InlineKeyboardButton  ("📶 About Me 📶", callback_data="aboutmanu_"),
+                 InlineKeyboardButton  ("📶 About Me 📶", url=f"https://t.me/TEAM_BLAZE_XD"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🚑 Support", url=f"https://t.me/Blaze_Support"
+                        "🚑 Support", url=f"https://t.me/BLAZE_Support"
                     ),
                     InlineKeyboardButton(
-                        "Updates 📢", url=f"https://t.me/the_Blaze_NETWORK"
+                        "Updates 📢", url=f"https://t.me/THE_BLAZE_NETWORK"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "✳️ ChatZone ✳️", url=f"https://t.me/unique_SOCIETY"),
+                        "✳️ ChatZone ✳️", url=f"https://t.me/UNIQUE_SOCIETY")
+                ]
+                
+           ]
+        ),
+    )
     
     
 @app.on_message(filters.command(["alive", "Candy"]) & filters.group & ~filters.edited)
