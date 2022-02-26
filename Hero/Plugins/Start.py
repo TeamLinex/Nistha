@@ -158,24 +158,6 @@ async def useradd(_, message: Message):
         )
 
 
-@app.on_message(filters.command(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
-async def useradd(_, message: Message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/4cee546f83f7a9573d329.jpg",
-        caption=f"""""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        text="🚑 Support", url=f"https://t.me/BLAZE_SUPPORT"
-                    ),
-                    InlineKeyboardButton(text="Updates 📢", url=f"https://t.me/THE_BLAZE_NETWORK"),
-                ]
-            ]
-        )
-
-
-
 @app.on_message(filters.command("settings") & filters.group)
 async def settings(_, message: Message):
     c_id = message.chat.id
