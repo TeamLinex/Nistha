@@ -74,18 +74,18 @@ async def mplay_stream(message,MusicData):
     if str(duration) == "None":
         buttons = livestream_markup("720", videoid, duration, user_id)
         return await message.reply_text(
-            "**ʟɪᴠᴇ sᴛʀᴇᴀᴍ ᴅᴇᴛᴇᴄᴛᴇᴅ**\n\nᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ ʟɪᴠᴇ sᴛʀᴇᴀᴍ? ᴛʜɪs ᴡɪʟʟ sᴛᴏᴘ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴘʟᴀʏɪɴɢ ᴍᴜsɪᴄ ᴀɴᴅ ᴡɪʟʟ sᴛᴀʀᴛ sᴛʀᴇᴀᴍɪɴɢ ʟɪᴠᴇ ᴠɪᴅᴇᴏ...",
+            "*Live Stream Detected**\n\nwant to play live stream? This will stop the current ᴘʟᴀʏɪɴɢ ᴍᴜsɪᴄ ᴀɴᴅ ᴡɪʟʟ sᴛᴀʀᴛ sᴛʀᴇᴀᴍɪɴɢ ʟɪᴠᴇ ᴠɪᴅᴇᴏ...",
             reply_markup=InlineKeyboardMarkup(buttons),
         )    
     await message.delete()
     title, duration_min, duration_sec, thumbnail = get_yt_info_id(videoid)
     if duration_sec > DURATION_LIMIT:
         return await message.reply_text(
-            f"**ᴅᴜʀᴀᴛɪᴏɴ ʟɪᴍɪᴛ ᴇxᴄᴇᴇᴅᴇᴅ**\n\n**ᴀʟʟᴏᴡᴇᴅ ᴅᴜʀᴀᴛɪᴏɴ: **{DURATION_LIMIT_MIN} ᴍɪɴᴜᴛᴇs\n**ʀᴇᴄᴇɪᴠᴇᴅ ᴅᴜʀᴀᴛɪᴏɴ:** {duration_min} ᴍɪɴᴜᴛᴇs"
+            f"**Duration limit exceeded**\n\n**Allowed Duration: **{DURATION_LIMIT_MIN} Minutes\n**Received Duration:** {duration_min} Minutes"
         )
-    mystic = await message.reply_text(f"🔄 ᴘʀᴏᴄᴇssɪɴɢ:- {title[:20]}")
+    mystic = await message.reply_text(f"🔄 Processing:- {title[:20]}")
     await mystic.edit(
-        f"**{MUSIC_BOT_NAME} ᴅᴏᴡɴʟᴏᴀᴅᴇʀ**\n**Title:** {title[:50]}\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%"
+        f"**{MUSIC_BOT_NAME} Downloader**\n**Title:** {title[:50]}\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%"
     )
     downloaded_file = await loop.run_in_executor(
         None, download, videoid, mystic, title
