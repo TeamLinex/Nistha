@@ -121,7 +121,7 @@ Click help Commands Button /help ...""",
                     )
                 ],
                 [            
-                 InlineKeyboardButton  ("📶 About Me 📶", callback_data="help_back"),
+                 InlineKeyboardButton  ("🛠️ Help & Cmd ⚒️", callback_data="help_back"),
                 ],
                 [
                     InlineKeyboardButton(
