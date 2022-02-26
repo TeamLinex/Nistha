@@ -117,12 +117,24 @@ async def useradd(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/AlishaSupport")
-                ]
-                
-           ]
-        ),
-    )
+                        "🌀 Add Me To Your Group 🌀",
+                        url=f"https://t.me/luna_musicbot?startgroup=true",
+                    )
+                ],
+                [            
+                 InlineKeyboardButton  ("📶 About Me 📶", callback_data="aboutmanu_"),
+                ],
+                [
+                    InlineKeyboardButton(
+                        "🚑 Support", url=f"https://t.me/Blaze_Support"
+                    ),
+                    InlineKeyboardButton(
+                        "Updates 📢", url=f"https://t.me/the_Blaze_NETWORK"
+                    ),
+                ],
+                [
+                    InlineKeyboardButton(
+                        "✳️ ChatZone ✳️", url=f"https://t.me/unique_SOCIETY"),
     
     
 @app.on_message(filters.command(["alive", "Candy"]) & filters.group & ~filters.edited)
