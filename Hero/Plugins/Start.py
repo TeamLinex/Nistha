@@ -109,18 +109,10 @@ async def useradd(_, message: Message):
 async def useradd(_, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/46247f00eecfb587117c0.jpg",
-        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ᴀʟɪsʜᴀ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
-ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs🌼 ..
-┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴋɪɴɢ    : [Aʙʜɪᴍᴀɴʏᴜ Rᴀɴᴀ](https://t.me/Itz_Venom_xD)
-┣★ ᴜᴘᴅᴀᴛᴇs : [Aʟɪsʜᴀ Sᴇʀᴠᴇʀ](https://t.me/AlishaSupport)
-┣★ sᴜᴘᴘᴏʀᴛ : [Aʟɪsʜᴀ Cʜᴀᴛ](https://t.me/Shayri_Music_Lovers)
-┣★ Qᴜᴇᴇɴ   : [Cᴀɴᴅʏ ǫᴜᴇᴇɴ](https://t.me/candy_626)
-┗━━━━━━━━━━━━━━━━━┛
-💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/Itz_Venom_xD) ...
-━━━━━━━━━━━━━━━━━━━━━━━━**""",
+        caption=f"""ʜᴇʟʟᴏ [👋](https://telegra.ph/file/0d0cd252270861a6838ce.jpg)
+ᴍʏ ɴᴀᴍᴇ ɪs {BOT_NAME}.
+ɪ ᴀᴍ ᴍᴜsɪᴄ + ᴠɪᴅᴇᴏ sᴛʀᴇᴀᴍᴇʀ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴀɴᴅ ᴍʏ ɢᴏᴅғᴀᴛʜᴇʀ ɪs [⚡ᴘᴇʀғᴇᴄᴛ sᴀʟɪᴍ⚡](https://t.me/xmartperson) .
+ᴀʟʟ ᴄᴍɴᴅ ᴄᴀɴ ᴜsᴇᴅ ᴡɪᴛʜ:""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
