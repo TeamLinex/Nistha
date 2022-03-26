@@ -1,11 +1,14 @@
 from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
+
+                            InlineKeyboardMarkup, InputMediaPhoto, Message)
+from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
+
                             InlineKeyboardMarkup, InputMediaPhoto, Message)
 
-from Yukki import db_mem, BOT_USERNAME
-
-from config import SUPPORT_CHANNEL, SUPPORT_GROUP
+from Hero import db_mem
 
 def url_markup(videoid, duration, user_id, query, query_type):
+
     buttons = [
         [
             InlineKeyboardButton(
