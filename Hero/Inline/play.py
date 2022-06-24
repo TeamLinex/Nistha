@@ -51,7 +51,7 @@ def url_markup(videoid, duration, user_id, query, query_type):
         [
             InlineKeyboardButton(
                 text="Add me to Your Group",
-                url=f"t.me/HYPERMEN_RBOT?startgroup=true",
+                url=f"t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ], 
     ]
@@ -72,12 +72,12 @@ def url_markup2(videoid, duration, user_id):
         ],
         [
             InlineKeyboardButton(
-                text="📨 Support",
+                text="✦ Support",
                 url=f"t.me/UNIQUE_SOCIETY",
             ),
             InlineKeyboardButton(
-                text="Updates 📨",
-                url=f"t.me/THE_BLAZE_NETWORK",
+                text="Updates ✦",
+                url=f"t.me/ITZZ_OFFICIAL",
             ),
         ],
         [
@@ -89,7 +89,7 @@ def url_markup2(videoid, duration, user_id):
         [
             InlineKeyboardButton(
                 text="Add me to Your Group",
-                url=f"t.me/HYPERMEN_RBOT?startgroup=true",
+                url=f"t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
     ]
@@ -202,19 +202,19 @@ def search_markup2(
 def secondary_markup(videoid, user_id):
     buttons = [
         [
-            InlineKeyboardButton(text="▶️", callback_data=f"resumecb"),
-            InlineKeyboardButton(text="⏸️", callback_data=f"pausecb"),
-            InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
-            InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
+            InlineKeyboardButton(text="▷", callback_data=f"resumecb"),
+            InlineKeyboardButton(text="II", callback_data=f"pausecb"),
+            InlineKeyboardButton(text="‣‣", callback_data=f"skipcb"),
+            InlineKeyboardButton(text="▢", callback_data=f"stopcb"),
         ],
         [
             InlineKeyboardButton(
-                text="📨 Support",
+                text="✦ Support",
                 url=f"t.me/UNIQUE_SOCIETY",
             ),
             InlineKeyboardButton(
-                text="Updates 📨",
-                url=f"t.me/THE_BLAZE_NETWORK",
+                text="Updates ✦",
+                url=f"t.me/ITZZ_OFFICIAL",
             ),
         ],
         [
@@ -226,7 +226,7 @@ def secondary_markup(videoid, user_id):
         [
             InlineKeyboardButton(
                 text="Add me to Your Group",
-                url=f"t.me/HYPERMEN_RBOT?startgroup=true",
+                url=f"t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
     ]
@@ -236,19 +236,19 @@ def secondary_markup(videoid, user_id):
 def secondary_markup2(videoid, user_id):
     buttons = [
         [
-            InlineKeyboardButton(text="▶️", callback_data=f"resumecb"),
-            InlineKeyboardButton(text="⏸️", callback_data=f"pausecb"),
-            InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
-            InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
+            InlineKeyboardButton(text="▷", callback_data=f"resumecb"),
+            InlineKeyboardButton(text="II", callback_data=f"pausecb"),
+            InlineKeyboardButton(text="‣‣", callback_data=f"skipcb"),
+            InlineKeyboardButton(text="▢", callback_data=f"stopcb"),
         ],
         [
             InlineKeyboardButton(
-                text="📨 Support",
+                text="✦ Support",
                 url=f"t.me/UNIQUE_SOCIETY",
             ),
             InlineKeyboardButton(
-                text="Updates 📨",
-                url=f"t.me/THE_BLAZE_NETWORK",
+                text="Updates ✦",
+                url=f"t.me/ITZZ_OFFICIAL",
             ),
         ],
         [
@@ -257,7 +257,7 @@ def secondary_markup2(videoid, user_id):
         [
             InlineKeyboardButton(
                 text="Add me to Your Group",
-                url=f"t.me/HYPERMEN_RBOT?startgroup=true",
+                url=f"t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
     ]
@@ -270,19 +270,19 @@ def primary_markup(videoid, user_id, current_time, total_time):
     db_mem[videoid]["check"] = 2
     buttons = [
         [
-            InlineKeyboardButton(text="▶️", callback_data=f"resumecb"),
-            InlineKeyboardButton(text="⏸️", callback_data=f"pausecb"),
-            InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
-            InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
+            InlineKeyboardButton(text="▷", callback_data=f"resumecb"),
+            InlineKeyboardButton(text="II", callback_data=f"pausecb"),
+            InlineKeyboardButton(text="‣‣", callback_data=f"skipcb"),
+            InlineKeyboardButton(text="▢", callback_data=f"stopcb"),
         ],
         [
             InlineKeyboardButton(
-                text="📨 Support",
+                text="✦ Support",
                 url=f"t.me/UNIQUE_SOCIETY",
             ),
             InlineKeyboardButton(
-                text="Updates 📨",
-                url=f"t.me/THE_BLAZE_NETWORK",
+                text="Updates ✦",
+                url=f"t.me/ITZZ_OFFICIAL",
             ),
         ],
         [
@@ -294,7 +294,7 @@ def primary_markup(videoid, user_id, current_time, total_time):
         [
             InlineKeyboardButton(
                 text="Add me to Your Group",
-                url=f"t.me/HYPERMEN_RBOT?startgroup=true",
+                url=f"t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
     ]
@@ -304,19 +304,19 @@ def primary_markup(videoid, user_id, current_time, total_time):
 def timer_markup(videoid, user_id, current_time, total_time):
     buttons = [
         [
-            InlineKeyboardButton(text="▶️", callback_data=f"resumecb"),
-            InlineKeyboardButton(text="⏸️", callback_data=f"pausecb"),
-            InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
-            InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
+            InlineKeyboardButton(text="▷", callback_data=f"resumecb"),
+            InlineKeyboardButton(text="II", callback_data=f"pausecb"),
+            InlineKeyboardButton(text="‣‣", callback_data=f"skipcb"),
+            InlineKeyboardButton(text="▢", callback_data=f"stopcb"),
         ],
         [
             InlineKeyboardButton(
-                text="📨 Support",
+                text="✦ Support",
                 url=f"t.me/UNIQUE_SOCIETY",
             ),
             InlineKeyboardButton(
-                text="Updates 📨",
-                url=f"t.me/THE_BLAZE_NETWORK",
+                text="Updates ✦",
+                url=f"t.me/ITZZ_OFFICIAL",
             ),
         ],
         [
@@ -328,7 +328,7 @@ def timer_markup(videoid, user_id, current_time, total_time):
         [
             InlineKeyboardButton(
                 text="Add me to Your Group",
-                url=f"t.me/HYPERMEN_RBOT?startgroup=true",
+                url=f"t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
     ]
@@ -341,26 +341,26 @@ def audio_markup(videoid, user_id, current_time, total_time):
     db_mem[videoid]["check"] = 2
     buttons = [
         [
-            InlineKeyboardButton(text="▶️", callback_data=f"resumecb"),
-            InlineKeyboardButton(text="⏸️", callback_data=f"pausecb"),
-            InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
-            InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
+            InlineKeyboardButton(text="▷", callback_data=f"resumecb"),
+            InlineKeyboardButton(text="II", callback_data=f"pausecb"),
+            InlineKeyboardButton(text="‣‣", callback_data=f"skipcb"),
+            InlineKeyboardButton(text="▢", callback_data=f"stopcb"),
         ],
         [
             InlineKeyboardButton(
-                text="📨 Support",
+                text="✦ Support",
                 url=f"t.me/UNIQUE_SOCIETY",
             ),
             InlineKeyboardButton(
-                text="Updates 📨",
-                url=f"t.me/THE_BLAZE_NETWORK",
+                text="Updates ✦",
+                url=f"t.me/iTZZ_OFFICIAL",
             ),
         ],
         [InlineKeyboardButton(text="🗑 Close Menu", callback_data=f"close")],
         [
             InlineKeyboardButton(
                 text="Add me to Your Group",
-                url=f"t.me/HYPERMEN_RBOT?startgroup=true",
+                url=f"t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
     ]
@@ -370,26 +370,26 @@ def audio_markup(videoid, user_id, current_time, total_time):
 def audio_timer_markup_start(videoid, user_id, current_time, total_time):
     buttons = [        
         [
-            InlineKeyboardButton(text="▶️", callback_data=f"resumecb"),
-            InlineKeyboardButton(text="⏸️", callback_data=f"pausecb"),
-            InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
-            InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
+            InlineKeyboardButton(text="▷", callback_data=f"resumecb"),
+            InlineKeyboardButton(text="II", callback_data=f"pausecb"),
+            InlineKeyboardButton(text="‣‣", callback_data=f"skipcb"),
+            InlineKeyboardButton(text="▢", callback_data=f"stopcb"),
         ],
         [
             InlineKeyboardButton(
-                text="📨 Support",
+                text="✦ Support",
                 url=f"t.me/UNIQUE_SOCIETY",
             ),
             InlineKeyboardButton(
-                text="Updates 📨",
-                url=f"t.me/THE_BLAZE_NETWORK",
+                text="Updates ✦",
+                url=f"t.me/ITZZ_OFFICIAL",
             ),
         ],
         [InlineKeyboardButton(text="🗑 Close Menu", callback_data=f"close")],
         [
             InlineKeyboardButton(
                 text="Add me to your Group",
-                url=f"t.me/HYPERMEN_RBOT?startgroup=true",
+                url=f"t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
     ]
@@ -399,26 +399,26 @@ def audio_timer_markup_start(videoid, user_id, current_time, total_time):
 audio_markup2 = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="▶️", callback_data=f"resumecb"),
-            InlineKeyboardButton(text="⏸️", callback_data=f"pausecb"),
-            InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
-            InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
+            InlineKeyboardButton(text="▷", callback_data=f"resumecb"),
+            InlineKeyboardButton(text="II", callback_data=f"pausecb"),
+            InlineKeyboardButton(text="‣‣", callback_data=f"skipcb"),
+            InlineKeyboardButton(text="▢", callback_data=f"stopcb"),
         ],
         [
             InlineKeyboardButton(
-                text="📨 Support",
+                text="✦ Support",
                 url=f"t.me/UNIQUE_SOCIETY",
             ),
             InlineKeyboardButton(
-                text="Updates 📨",
-                url=f"t.me/THE_BLAZE_NETWORK",
+                text="Updates ✦",
+                url=f"t.me/iTZZ_OFFICIAL",
             ),
         ],
         [InlineKeyboardButton("🗑 Close Menu", callback_data="close")],
         [
             InlineKeyboardButton(
                 text="Add me to Your Group",
-                url=f"t.me/HYPERMEN_RBOT?startgroup=true",
+                url=f"t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
     ]
