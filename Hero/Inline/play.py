@@ -51,7 +51,7 @@ def url_markup(videoid, duration, user_id, query, query_type):
         [
             InlineKeyboardButton(
                 text="Add me to Your Group",
-                url=f"t.me/{BOT_USERNAME}?startgroup=true",
+                url=f"t.me/Marphious_robot?startgroup=true",
             ),
         ], 
     ]
@@ -89,7 +89,7 @@ def url_markup2(videoid, duration, user_id):
         [
             InlineKeyboardButton(
                 text="Add me to Your Group",
-                url=f"t.me/{BOT_USERNAME}?startgroup=true",
+                url=f"t.me/Marphious_robot?startgroup=true",
             ),
         ],
     ]
@@ -226,7 +226,7 @@ def secondary_markup(videoid, user_id):
         [
             InlineKeyboardButton(
                 text="Add me to Your Group",
-                url=f"t.me/{BOT_USERNAME}?startgroup=true",
+                url=f"t.me/Marphious_robot?startgroup=true",
             ),
         ],
     ]
@@ -257,7 +257,7 @@ def secondary_markup2(videoid, user_id):
         [
             InlineKeyboardButton(
                 text="Add me to Your Group",
-                url=f"t.me/{BOT_USERNAME}?startgroup=true",
+                url=f"t.me/Marphious_robot?startgroup=true",
             ),
         ],
     ]
@@ -294,7 +294,7 @@ def primary_markup(videoid, user_id, current_time, total_time):
         [
             InlineKeyboardButton(
                 text="Add me to Your Group",
-                url=f"t.me/{BOT_USERNAME}?startgroup=true",
+                url=f"t.me/Marphious_robot?startgroup=true",
             ),
         ],
     ]
@@ -328,7 +328,7 @@ def timer_markup(videoid, user_id, current_time, total_time):
         [
             InlineKeyboardButton(
                 text="Add me to Your Group",
-                url=f"t.me/{BOT_USERNAME}?startgroup=true",
+                url=f"t.me/Marphious_robot?startgroup=true",
             ),
         ],
     ]
@@ -360,7 +360,7 @@ def audio_markup(videoid, user_id, current_time, total_time):
         [
             InlineKeyboardButton(
                 text="Add me to Your Group",
-                url=f"t.me/{BOT_USERNAME}?startgroup=true",
+                url=f"t.me/Marphious_robot?startgroup=true",
             ),
         ],
     ]
@@ -389,7 +389,7 @@ def audio_timer_markup_start(videoid, user_id, current_time, total_time):
         [
             InlineKeyboardButton(
                 text="Add me to your Group",
-                url=f"t.me/{BOT_USERNAME}?startgroup=true",
+                url=f"t.me/Marphious_robot?startgroup=true",
             ),
         ],
     ]
@@ -418,7 +418,7 @@ audio_markup2 = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="Add me to Your Group",
-                url=f"t.me/{BOT_USERNAME}?startgroup=true",
+                url=f"t.me/Marphious_robot?startgroup=true",
             ),
         ],
     ]
